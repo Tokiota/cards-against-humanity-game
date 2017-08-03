@@ -1,4 +1,4 @@
-import * as Vue from 'vue';
+import Vue from 'vue';
 import Vuex, { Store } from 'vuex';
 
 import { State } from './state';
