@@ -1,2 +1,1 @@
-export const GET_PRODUCT = 'GET_PRODUCT'
-
+export const LOAD_DECK = 'LOAD_DECK'
