@@ -1,7 +1,7 @@
 <template>
-    <div >
+    <span >
         {{whiteText}}
-    </div>
+    </span>
 </template>
 
 <script lang="ts">
