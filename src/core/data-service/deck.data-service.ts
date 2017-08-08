@@ -8,9 +8,9 @@ export class DeckDataService {
      */
     public loadDeck(): Promise<Card[]> {
 
-
+        var deckLoaded: any = deck
         return new Promise<Card[]>((resolve, reject) => {
-            resolve(<Card[]>deck);
+            resolve(<Card[]> deckLoaded);
         });
     }
 }
