@@ -22,7 +22,7 @@ import router from '@/router/'
 })
 export default class Question  extends Vue{
     done() {
-        router.push('results')
+        router.replace('results')
     }
 }
 </script>

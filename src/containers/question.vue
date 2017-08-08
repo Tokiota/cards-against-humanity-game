@@ -10,7 +10,7 @@
             <li> <WhiteCard whiteText="A bag of magic beans"></WhiteCard></li>
         </ul>
         <button type="button" v-on:click="sendPhrase">Proceed</button>
-    </div>    
+    </div>
 </template>
 
 <script lang="ts">
@@ -24,7 +24,7 @@ import router from '@/router/'
 })
 export default class Question  extends Vue{
     sendPhrase (){
-        router.push('votation')
+        router.replace('votation')
     }
 }
 </script>
