@@ -1,12 +1,22 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
-  </div>
+    <div id="app">
+        <h1>Devs vs Humanity</h1>
+        <div>
+            <ranking></ranking>
+        </div>
+        <br>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue'
+import Component from 'vue-class-component'
+import Ranking from '@components/ranking'
+@Component({
+    components:{ Ranking}
+})
+export default class main extends Vue {
   name: 'app'
 }
 </script>
